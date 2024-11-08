@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quasim Restaurant</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <button id="done" class="btn btn-success"><a class="nav-link" href="#result" id="done_link">done</a></button>
+        <a class="navbar-brand" href="#home">Your Restaurant</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+            
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#beef">Beef</a></li>
+                <li class="nav-item"><a class="nav-link" href="#chicken">Chicken</a></li>
+                <li class="nav-item"><a class="nav-link" href="#burger">Burgers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#drinks">Drinks</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Sections -->
+    <div id="home" class="section">
+        <div class="container text-center">
+            
+        </div>
+    </div>
+    
+                <!-- Buttons for each section -->
+                <div class="mt-4 d-flex justify-content-center">
+                    <button class="btn btn-dark m-2" ><a href="#chicken" >Chicken Dishes</a></button>
+                    <button class="btn btn-dark m-2"><a href="#burger">Burgers</a></button>
+                    <button class="btn btn-dark m-2"><a href="#drinks">Drinks</a></button>
+                    <button class="btn btn-dark m-2"><a href="#beef">Beef Dishes</a></button>
+
+
+                    
+                    
+                </div>
+                <br>
+                
+                
+    
+    <div id="beef" class="section">
+        <div class="container">
+            <h2>pizza</h2>
+            <div class="row">
+                <!-- Chicken Dish Example -->
+                <div class="col-md-4">
+                     
+            <!-- Card 3 -->
+            <div class="card mb-3">
+                <div class="flip-container">
+                    <div class="card">
+                        <div class="card-front p-3">
+                            <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                <h3 class="m-0">Pizza Margherita <br> <small >soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                <button class="flip-button btn btn-success ">Flip</button>
+                            </div>
+                        </div>
+                        <div class="card-back p-3">
+                            <h5>pizza_margeritta</h5>
+                            
+                            <p class="price" >1000</p>
+                                                    
+                            <div class="d-flex align-items-center">
+                                <button class="  moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                <h5 class="m-0 mx-2 counter">0</h5>
+                                <p class="m-0 mx-2" >pcs</p>
+                                <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                
+                                <button class="  plusButton btn  btn-success m-1" >add to cart</button>
+                                
+                                
+                                <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                <button class="  orderButton btn btn-danger  m-1" style="display: none;" >cancel</button>
+                                <p class="details" style="display: none;" ></p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                </div>
+    
+                
+            </div>
+    
+            <div class="col-md-4"> 
+                          <!-- Card 3 -->
+            <div class="card mb-3">
+                <div class="flip-container">
+                    <div class="card">
+                        <div class="card-front p-3">
+                            <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                <button class="flip-button btn btn-success">Flip</button>
+                            </div>
+                        </div>
+                        <div class="card-back p-3">
+                            <h5>pizza_margeritta</h5>
+                            
+                            <p class="price" >1000</p>
+                            
+                            
+                            
+                            <div class="d-flex align-items-center">
+                                <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                <h5 class="m-0 mx-2 counter">0</h5>
+                                <p class="m-0 mx-2" >pcs</p>
+                                <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                
+                                <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                
+                                
+                                <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                <button class="orderButton btn btn-danger m-1">cancel</button>
+                                <p class="details" style="display: none;" ></p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                </div>
+    
+                
+            </div>
+                <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                                </div>
+    
+                    <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                                        
+                        </div>
+                        <div class="col-md-4"> 
+                         <!-- Card 3 -->
+                         <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                                          
+                            </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+    <div id="chicken" class="section">
+        <div class="container">
+            <h2>pizza</h2>
+            <div class="row">
+                <!-- Chicken Dish Example -->
+                <div class="col-md-4"> 
+                         <!-- Card 3 -->
+                         <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                        
+                
+            </div>
+    
+            <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                            </div>
+                <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                                    
+                    </div>
+    
+                    <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                                        
+                        </div>
+                        <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                                            
+                            </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="burger" class="section">
+        <div class="container">
+            <h2>pizza</h2>
+            <div class="row">
+                <!-- Chicken Dish Example -->
+                <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                        
+                
+            </div>
+    
+            <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                            </div>
+                <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                                </div>
+    
+                    <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                                        
+                        </div>
+                        <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                                            
+                            </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+    <div id="drinks" class="section">
+        <div class="container">
+            <h2>pizza</h2>
+            <div class="row">
+                <!-- Chicken Dish Example -->
+                <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                        
+                
+            </div>
+    
+            <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                            </div>
+                <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                                    
+                    </div>
+    
+                    <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                                        
+                        </div>
+                        <div class="col-md-4"> 
+                          <!-- Card 3 -->
+                          <div class="card mb-3">
+                            <div class="flip-container">
+                                <div class="card">
+                                    <div class="card-front p-3">
+                                        <div class="hd_card d-flex align-items-center justify-content-between w-100">
+                                            <h3 class="m-0">Pizza Margherita <br> <small>soce, food, chikin wings, spice, <br> this pizza is so nice all our customers like it </small>   <br> </h3>
+                                            <button class="flip-button btn btn-success">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-back p-3">
+                                        <h5>pizza_margeritta</h5>
+                                        
+                                        <p class="price" >1000</p>
+                                        
+                                        
+                                        
+                                        <div class="d-flex align-items-center">
+                                            <button class="moinsButton btn btn-danger m-1" style="display: none;" >-</button>
+                                            <h5 class="m-0 mx-2 counter">0</h5>
+                                            <p class="m-0 mx-2" >pcs</p>
+                                            <h5 class="m-0 mx-2 counter_price" style="display: none;"  >1000</h5>
+                                            
+                                            <button class="plusButton btn btn-success m-1" >add to cart</button>
+                                            
+                                            
+                                            <h5 class="m-0 mx-2 counter_total" style="display: none;" >0</h5>
+                                            <button class="orderButton btn btn-danger m-1">cancel</button>
+                                            <p class="details" style="display: none;" ></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                
+                                            
+                            </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+    <div class="container" id="result" style="display: none;" >
+        <!-- Other elements here -->
+        <p id="title_p" >verfie your order</p>
+        <p class="details" style="display: none;" >________________________________________          </p>
+    
+        <p id="all" style="border: none; border-top: 2px solid #333;" ></p>
+        
+        <p id="allCounters" class="details" style="border: none; border-top: 2px solid #333;" >Total Count: 0</p>
+        
+        <button class="btn btn-success m-1" id="sendButton" >send the order</button>
+    
+        <p id="doneParagraph" ></p>
+      
+    </div>
+    
+    
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        
+        <p>thank you to visit us</p>
+        <p>&copy; 2024 Your Restaurant</p>
+    
+    </footer>
+    
+    
+
+<!-- Bootstrap and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+    
+
+</body>
+</html>
